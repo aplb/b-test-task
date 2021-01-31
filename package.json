@@ -1,0 +1,16 @@
+{
+  "name": "binance-test-task",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "node ./tests/getTop10PairsByVolumeTest.js && node ./tests/monitorTest.js && echo '==== Tests pass'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request-promise": "^4.2.6",
+    "ws": "^7.4.2"
+  }
+}
